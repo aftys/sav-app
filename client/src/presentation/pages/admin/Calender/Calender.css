@@ -1,0 +1,102 @@
+.calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.appointment-form {
+    margin-bottom: 20px;
+}
+
+.appointment-form h3 {
+    margin-top: 0;
+}
+
+.appointment-form label {
+    margin-right: 10px;
+}
+
+.appointment-form input[type='date'],
+.appointment-form input[type='time'],
+.appointment-form input[type='text'] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.appointment-list {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.appointment-list h3 {
+    margin-top: 0;
+}
+
+.appointment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.appointment-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.appointment-list li span {
+    margin-right: 10px;
+}
+
+.appointment-list li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff6347;
+    margin-left: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.appointment-list li button:hover {
+    background-color: #d9534f;
+}
+.calendar-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333;
+    margin-bottom: 20px;
+}
+.newapp-title {
+    font-size: 20px;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+}
+.add-appointment-button {
+    background-color: #007bff;
+    /* Blue background color */
+    color: #000000;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding around text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.add-appointment-button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}

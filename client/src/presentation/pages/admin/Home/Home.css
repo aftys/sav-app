@@ -1,0 +1,58 @@
+.admin-dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.widget:last-child {
+    margin-right: 0;
+}
+
+.widget h3 {
+    margin-top: 0;
+}
+
+.widget p {
+    margin: 10px 0;
+}
+
+.widget ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 5px;
+}
+
+.admin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #288BA8;
+        text-decoration: underline;
+}
